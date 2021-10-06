@@ -1,2 +1,0 @@
-# useMediaQuery
-Created with CodeSandbox
