@@ -1,7 +1,7 @@
 {
-  "name": "@hama/use-media-query",
+  "name": "@gitihm/use-media-query",
   "version": "0.0.5",
-  "description": "@hama/use-media-query",
+  "description": "use-media-query",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -14,8 +14,7 @@
     "url": "git+https://github.com/gitihm/useMediaQuery.git"
   },
   "keywords": [
-    "@hama",
-    "@hama/use-media-query",
+    "@gitihm",
     "use-media-query"
   ],
   "author": "gitihm",
