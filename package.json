@@ -1,9 +1,9 @@
 {
   "name": "@gitihm/use-media-query",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "use-media-query",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "lib/useMediaQuery.js",
+  "types": "lib/useMediaQuery.d.ts",
   "scripts": {
     "build": "tsc -t ES2016 --lib \"ES2016\",\"DOM\"",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -30,12 +30,11 @@
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
+    "@types/react": "^17.0.27",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "@types/react": "^17.0.27"
+    "react-dom": "^17.0.1"
   },
   "files": [
     "lib/**/*"
-    
   ]
 }
