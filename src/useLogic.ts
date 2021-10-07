@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react'
-
-const useLogic = (query: string) => {
+const useLogic = () => {
     
     const isTrue = (data: any) => {
         return Boolean(data) 
