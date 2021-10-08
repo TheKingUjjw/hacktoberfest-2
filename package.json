@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitihm/use-media-query.git"
+    "url": "git+https://github.com/gitihm/utils-hooks.git"
   },
   "keywords": [
     "@gitihm",
@@ -20,9 +20,9 @@
   "author": "gitihm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gitihm/use-media-query/issues"
+    "url": "https://github.com/gitihm/utils-hooks/issues"
   },
-  "homepage": "https://github.com/gitihm/use-media-query#readme",
+  "homepage": "https://github.com/gitihm/utils-hooks#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
     "tslint": "^6.1.3",
