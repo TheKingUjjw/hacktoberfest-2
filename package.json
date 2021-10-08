@@ -1,9 +1,9 @@
 {
-  "name": "@gitihm/use-media-query",
-  "version": "0.0.9",
-  "description": "use-media-query",
-  "main": "lib/useMediaQuery.js",
-  "types": "lib/useMediaQuery.d.ts",
+  "name": "@gitihm/utils-hooks",
+  "version": "0.0.10",
+  "description": "utils-hooks",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -t ES2016 --lib \"ES2016\",\"DOM\"",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "@gitihm",
-    "use-media-query"
+    "utils-hooks"
   ],
   "author": "gitihm",
   "license": "ISC",
