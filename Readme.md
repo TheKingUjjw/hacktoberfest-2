@@ -2,7 +2,7 @@
 
 ###max-width
 
-`const isMobile = useMediaQuery("(max-width: 768px)");`
+`const isMobile = useMediaQuery("(max-width: 768px)");`<br/>
 ###min-width
 `const isDesktop = useMediaQuery("(min-width: 768px)");`
 
