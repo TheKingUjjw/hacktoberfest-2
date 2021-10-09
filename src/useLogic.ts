@@ -40,6 +40,6 @@ const useLogic = () => {
         isEven,
         isOdd
     }
-  }
-  
-  export default useLogic
+}
+
+export default useLogic

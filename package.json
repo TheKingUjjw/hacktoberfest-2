@@ -1,9 +1,9 @@
 {
-  "name": "@gitihm/use-media-query",
-  "version": "0.0.9",
-  "description": "use-media-query",
-  "main": "lib/useMediaQuery.js",
-  "types": "lib/useMediaQuery.d.ts",
+  "name": "@gitihm/utils-hooks",
+  "version": "0.1.1",
+  "description": "utils-hooks",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -t ES2016 --lib \"ES2016\",\"DOM\"",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitihm/use-media-query.git"
+    "url": "git+https://github.com/gitihm/utils-hooks.git"
   },
   "keywords": [
     "@gitihm",
-    "use-media-query"
+    "utils-hooks"
   ],
-  "author": "gitihm",
+  "author": "My Friends",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gitihm/use-media-query/issues"
+    "url": "https://github.com/gitihm/utils-hooks/issues"
   },
-  "homepage": "https://github.com/gitihm/use-media-query#readme",
+  "homepage": "https://github.com/gitihm/utils-hooks#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
     "tslint": "^6.1.3",
