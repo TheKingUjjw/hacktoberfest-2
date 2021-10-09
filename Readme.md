@@ -71,3 +71,49 @@ interface MoviesProps {
 
   const res = useFlatMap<CategoryProps[], MoviesProps[]>(data, "movies");
 ```
+## useSortRanking
+
+```javaScript
+  const profiles: any[] = [
+    {
+      name: "Lufy",
+      email: "lufy@gmail.com",
+      total_score: 30
+    }, 
+    {
+      name: "Zoro",
+      email: "zoro@gmail.com",
+      total_score: 18
+    },
+    {
+      name: "Sanji",
+      email: "sanji@gmail.com",
+      total_score: 18
+    }
+  ];
+
+const profileSorted = useSortRanking<any[], string>(profiles, "total_score");
+
+example result: {
+  [
+  {
+    name: 'Lufy',
+    email: 'lufy@gmail.com',
+    total_score: 30,
+    ranking: 1
+  },
+  {
+    name: 'Zoro',
+    email: 'zoro@gmail.com',
+    total_score: 18,
+    ranking: 2
+  },
+  {
+    name: 'Sanji',
+    email: 'sanji@gmail.com',
+    total_score: 18,
+    ranking: 2
+  }
+]
+}
+```
