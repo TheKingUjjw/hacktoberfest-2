@@ -1,4 +1,4 @@
-const useSortRanking = async (profiles: any, score: string) => {
+const useSortRanking = (profiles: any, score: string) => {
     const updateProfiles = []
     let rank = 1
     let prev_rank = rank

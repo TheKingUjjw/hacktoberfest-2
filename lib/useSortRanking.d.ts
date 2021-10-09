@@ -1,2 +1,2 @@
-declare const useSortRanking: (profiles: any, score: string) => Promise<any[]>;
+declare const useSortRanking: (profiles: any, score: string) => any[];
 export default useSortRanking;
