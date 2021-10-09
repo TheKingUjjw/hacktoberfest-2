@@ -1,6 +1,6 @@
 {
   "name": "@gitihm/utils-hooks",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "utils-hooks",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,7 @@
     "@gitihm",
     "utils-hooks"
   ],
-  "author": "gitihm",
+  "author": "My Friends",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gitihm/utils-hooks/issues"
