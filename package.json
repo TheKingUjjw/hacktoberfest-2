@@ -1,6 +1,6 @@
 {
   "name": "@gitihm/utils-hooks",
-  "version": "0.0.1ุ6",
+  "version": "0.0.16",
   "description": "utils-hooks",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
