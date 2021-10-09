@@ -17,7 +17,10 @@ const useLogic = () => {
     }
    
     const isZero = (data: number | string) => {
-        return data == '0'
+        if(typeof(data) === 'number')
+            return data === 0
+        else if(typeof(data) === 'string')
+            return data === '0'
     }
 
     const isEven = (data: number) => {
