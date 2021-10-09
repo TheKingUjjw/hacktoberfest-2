@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitihm/utils-hooks.git"
+    "url": "git+https://github.com/gitihm/utils-lazy-hook.git"
   },
   "keywords": [
     "utils-lazy-hook",
@@ -20,9 +20,9 @@
   "author": "My Friends",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gitihm/utils-hooks/issues"
+    "url": "https://github.com/gitihm/utils-lazy-hook/issues"
   },
-  "homepage": "https://github.com/gitihm/utils-hooks#readme",
+  "homepage": "https://github.com/gitihm/utils-lazy-hook#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
     "tslint": "^6.1.3",
