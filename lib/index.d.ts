@@ -1,3 +1,4 @@
 import useLogic from './useLogic';
 import { useMediaQuery, breakpoints } from './useMediaQuery';
-export { useLogic, useMediaQuery, breakpoints };
+import useInterval from './useInterval';
+export { useLogic, useMediaQuery, breakpoints, useInterval };
