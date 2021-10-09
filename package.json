@@ -1,7 +1,7 @@
 {
-  "name": "@gitihm/utils-hooks",
-  "version": "0.1.1",
-  "description": "utils-hooks",
+  "name": "utils-lazy-hook",
+  "version": "0.1.2",
+  "description": "utils-lazy-hook",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/gitihm/utils-hooks.git"
   },
   "keywords": [
-    "@gitihm",
+    "utils-lazy-hook",
     "utils-hooks"
   ],
   "author": "My Friends",
