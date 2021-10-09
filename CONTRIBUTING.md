@@ -38,12 +38,8 @@ git clone https://github.com/your-username/hacktoberfest.git
 cd hacktoberfest
 ```
 
-- Add your useHook to folder src.
+- Add your useHook to folder src
 - Make a new branch
-
-```bash
-yarn && yarn add react @types/react
-```
 
 ```bash
 git checkout -b branch-name
