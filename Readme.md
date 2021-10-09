@@ -84,7 +84,7 @@ interface MoviesProps {
       name: "Zoro",
       email: "zoro@gmail.com",
       total_score: 18
-    }
+    },
     {
       name: "Sanji",
       email: "sanji@gmail.com",
@@ -92,5 +92,28 @@ interface MoviesProps {
     }
   ];
 
-const profileSorted = useSortRanking<any[], string>(profiles, total_score);
+const profileSorted = useSortRanking<any[], string>(profiles, "total_score");
+
+example result: {
+  [
+  {
+    name: 'Lufy',
+    email: 'lufy@gmail.com',
+    total_score: 30,
+    ranking: 1
+  },
+  {
+    name: 'Zoro',
+    email: 'zoro@gmail.com',
+    total_score: 18,
+    ranking: 2
+  },
+  {
+    name: 'Sanji',
+    email: 'sanji@gmail.com',
+    total_score: 18,
+    ranking: 2
+  }
+]
+}
 ```
