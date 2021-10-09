@@ -1,6 +1,19 @@
 import { useState, useEffect } from 'react'
 
-const useMediaQuery = (query: string) => {
+export const breakpoints = {
+  up: {
+    mobile: '(min-width: 0px)',
+    tablet: '(min-width: 768px)',
+    desktop: '(min-width: 1024x)',
+  },
+  down: {
+    mobile: '(max-width: 0px)',
+    tablet: '(max-width: 768px)',
+    desktop: '(max-width: 1024x)',
+  },
+}
+
+export const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState<boolean>(false)
 
   useEffect(() => {
@@ -15,5 +28,3 @@ const useMediaQuery = (query: string) => {
 
   return matches
 }
-
-export default useMediaQuery
