@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc -t ES2016 --lib \"ES2016\",\"DOM\"",
+    "build": "tsc -t ES2019 --lib \"ES2019\",\"DOM\"",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json"
   },
