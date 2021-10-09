@@ -1,14 +1,12 @@
-## useMediaQuery
-
-
-```bash 
-const isMobile = useMediaQuery("(max-width: 768px)");
-const isDesktop = useMediaQuery("(min-width: 768px)");
+## useInterval
+```javaScript 
+useInterval(() => {
+  console.log(`Hello World~`);
+}, 1000);
 ```
 
-
 ## useLogic
-```bash 
+```javaScript 
 const { 
   isTrue, 
   isFalse,
@@ -20,3 +18,8 @@ const {
   } = useLogic();
 ```
 
+## useMediaQuery
+```javaScript 
+const isMobile = useMediaQuery("(max-width: 768px)");
+const isDesktop = useMediaQuery("(min-width: 768px)");
+```
