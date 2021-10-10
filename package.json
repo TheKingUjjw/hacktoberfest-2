@@ -21,7 +21,8 @@
     "useLogic",
     "useMediaQuery",
     "useSortRanking",
-    "useOmit"
+    "useOmit",
+    "useEmailRegex"
   ],
   "author": "My Friends",
   "license": "ISC",

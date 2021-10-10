@@ -153,3 +153,10 @@ example omitResult = {
   b: '2',
   c: '3'
 }
+
+## useEmailRegex
+
+
+```javaScript
+  const isEmail = useEmailRegex(email)
+```
