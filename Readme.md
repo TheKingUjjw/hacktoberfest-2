@@ -9,6 +9,7 @@
 ```bash
 npm i utils-lazy-hook or yarn add utils-lazy-hook
 ```
+
 ## useInterval
 
 ```javaScript
@@ -34,13 +35,30 @@ const {
 ## useMediaQuery
 
 ```javaScript
-const isMobile = useMediaQuery("(max-width: 768px)");
-const isDesktop = useMediaQuery("(min-width: 768px)");
+import {useMediaQuery , breakpoints} from 'utils-lazy-hook'
+
+const isMobile = useMediaQuery("(max-width: 768px)")
+const isDesktop = useMediaQuery("(min-width: 768px)")
+//or
+/*
+  DEFAULT breakpoints
+  up: {
+    mobile: '(min-width: 0px)',
+    tablet: '(min-width: 768px)',
+    desktop: '(min-width: 1024x)',
+  },
+  down: {
+    mobile: '(max-width: 0px)',
+    tablet: '(max-width: 768px)',
+    desktop: '(max-width: 1024x)',
+  },
+*/
+const isTablet = useMediaQuery(breakpoints.up.tablet)
 ```
 
 ## useFlatMap
 
-```javaScript
+```typeScript
 interface CategoryProps {
   category: string;
   movies: MoviesProps[];
@@ -71,15 +89,16 @@ interface MoviesProps {
 
   const res = useFlatMap<CategoryProps[], MoviesProps[]>(data, "movies");
 ```
+
 ## useSortRanking
 
-```javaScript
+```typeScript
   const profiles: any[] = [
     {
       name: "Lufy",
       email: "lufy@gmail.com",
       total_score: 30
-    }, 
+    },
     {
       name: "Zoro",
       email: "zoro@gmail.com",
