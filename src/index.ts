@@ -7,6 +7,7 @@ import { useOmit } from './useOmit'
 import useRandomString from './useRandomString'
 import useMinMax from './useMinMax'
 import { useEmailRegex } from './useEmailRegex'
+import useOnReachBottom from './useOnReachBottom'
 export {
   useLogic,
   useMediaQuery,
@@ -17,5 +18,6 @@ export {
   useOmit,
   useRandomString,
   useMinMax,
-  useEmailRegex
+  useEmailRegex,
+  useOnReachBottom
 }

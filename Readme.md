@@ -146,7 +146,6 @@ example result: {
 ## useOmit
 
 ```javaScript
-
 const omitResult = useOmit({a: '1', b: '2', c: '3'}, ['a']);
 
 example omitResult = {
@@ -156,7 +155,6 @@ example omitResult = {
 ```
 
 ## useMinMax
-
 ```javaScript
 const { findMin,findMax } = useMinMax();
 const minNumber = findMin([1,2,3]) // 1
@@ -166,8 +164,48 @@ const maxNumber = findMax([1,2,3]) // 3
 ## useEmailRegex
 
 ```javaScript
-  const email = 'abc@mail.com'
-  const {isEmail} = useEmailRegex()
-  console.log(isEmail(email))
-  // true
+const email = 'abc@mail.com'
+const {isEmail} = useEmailRegex()
+console.log(isEmail(email))
+// true
+```
+
+## useOnReachBottom
+
+```javaScript
+import { useState } from 'react'
+import { useOnReachBottom } from 'utils-lazy-hook';
+
+function App() {
+  const [data, setData] = useState(['Item 0']);
+
+  const elemRef = useOnReachBottom(() => loadMore());
+
+  const getData = (offset: number, limit: number) => {
+    return Array.from(new Array(limit)).map((_, i) => `Item ${offset + i}`);
+  }
+
+  const loadMore = () => {
+    setData(prevData => {
+      const total = prevData.length;
+      const result = getData(total, 10);
+      return [
+        ...prevData,
+        ...result
+      ]
+    })
+  }
+
+  return (
+    <div ref={ref => elemRef.current = ref}>
+      {
+        data.map((item) => (
+          <p key={item}>{item}</p>
+        ))
+      }
+    </div>
+  )
+}
+
+export default App
 ```
