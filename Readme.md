@@ -159,6 +159,7 @@ example omitResult = {
 
 ```javaScript
   const email = 'abc@mail.com'
-  const isEmail = useEmailRegex(email)
-  // result true
+  const {isEmail} = useEmailRegex()
+  console.log(isEmail(email))
+  // true
 ```

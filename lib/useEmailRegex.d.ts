@@ -1,2 +1,3 @@
-declare const useEmailRegex: (email: string) => boolean;
-export default useEmailRegex;
+export declare const useEmailRegex: (regex?: RegExp | undefined) => {
+    isEmail: (email: string) => boolean;
+};
