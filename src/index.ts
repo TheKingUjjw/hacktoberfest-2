@@ -3,7 +3,8 @@ import { useMediaQuery, breakpoints } from './useMediaQuery'
 import useInterval from './useInterval'
 import { useFlatMap } from './useFlatMap'
 import useSortRanking from './useSortRanking'
-import {useOmit} from './useOmit';
+import { useOmit } from './useOmit'
+import useRandomString from './useRandomString'
 export {
   useLogic,
   useMediaQuery,
@@ -11,5 +12,6 @@ export {
   useInterval,
   useFlatMap,
   useSortRanking,
-  useOmit
+  useOmit,
+  useRandomString,
 }
