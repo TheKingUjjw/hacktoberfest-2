@@ -24,7 +24,8 @@
     "useOmit",
     "useRandomString",
     "useEmailRegex",
-    "useMinMax"
+    "useMinMax",
+    "useOnReachBottom"
   ],
   "author": "My Friends",
   "license": "ISC",
