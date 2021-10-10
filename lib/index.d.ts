@@ -7,5 +7,4 @@ import { useOmit } from './useOmit';
 import useRandomString from './useRandomString';
 import useMinMax from './useMinMax';
 import { useEmailRegex } from './useEmailRegex';
-import useOnReachBottom from './useOnReachBottom';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom };
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex };
