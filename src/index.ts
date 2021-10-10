@@ -6,6 +6,7 @@ import useSortRanking from './useSortRanking'
 import { useOmit } from './useOmit'
 import useRandomString from './useRandomString'
 import useMinMax from './useMinMax'
+import { useEmailRegex } from './useEmailRegex'
 export {
   useLogic,
   useMediaQuery,
@@ -15,5 +16,6 @@ export {
   useSortRanking,
   useOmit,
   useRandomString,
-  useMinMax
+  useMinMax,
+  useEmailRegex
 }

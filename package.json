@@ -1,6 +1,6 @@
 {
   "name": "utils-lazy-hook",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "utils-lazy-hook",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,7 +21,9 @@
     "useLogic",
     "useMediaQuery",
     "useSortRanking",
-    "useOmit"
+    "useOmit",
+    "useRandomString",
+    "useEmailRegex"
   ],
   "author": "My Friends",
   "license": "ISC",

@@ -4,7 +4,7 @@
 
 [https://www.npmjs.com/package/utils-lazy-hook](https://www.npmjs.com/package/utils-lazy-hook)
 
-##How to use
+## How to use
 
 ```bash
 npm i utils-lazy-hook or yarn add utils-lazy-hook
@@ -154,10 +154,20 @@ example omitResult = {
   c: '3'
 }
 ```
+
 ## useMinMax
 
 ```javaScript
 const { findMin,findMax } = useMinMax();
 const minNumber = findMin([1,2,3]) // 1
 const maxNumber = findMax([1,2,3]) // 3
+```
+
+## useEmailRegex
+
+```javaScript
+  const email = 'abc@mail.com'
+  const {isEmail} = useEmailRegex()
+  console.log(isEmail(email))
+  // true
 ```
