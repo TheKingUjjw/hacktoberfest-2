@@ -5,5 +5,6 @@ import { useFlatMap } from './useFlatMap';
 import useSortRanking from './useSortRanking';
 import { useOmit } from './useOmit';
 import useRandomString from './useRandomString';
+import useMinMax from './useMinMax';
 import { useEmailRegex } from './useEmailRegex';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useEmailRegex };
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useEmailRegex ,useMinMax };
