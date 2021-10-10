@@ -136,3 +136,15 @@ example result: {
 ]
 }
 ```
+
+## useOmit
+
+```javaScript
+
+const omitResult = useOmit({a: '1', b: '2', c: '3'}, ['a']);
+
+example omitResult = {
+  b: '2',
+  c: '3'
+}
+```
