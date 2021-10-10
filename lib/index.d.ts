@@ -5,4 +5,5 @@ import { useFlatMap } from './useFlatMap';
 import useSortRanking from './useSortRanking';
 import { useOmit } from './useOmit';
 import useRandomString from './useRandomString';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, };
+import useMinMax from './useMinMax';
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax };
