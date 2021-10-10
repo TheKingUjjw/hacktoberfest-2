@@ -153,3 +153,11 @@ example omitResult = {
   b: '2',
   c: '3'
 }
+```
+## useMinMax
+
+```javaScript
+const { findMin,findMax } = useMinMax();
+const minNumber = findMin([1,2,3]) // 1
+const maxNumber = findMax([1,2,3]) // 3
+```
