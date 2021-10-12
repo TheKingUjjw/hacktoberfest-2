@@ -25,7 +25,8 @@
     "useRandomString",
     "useEmailRegex",
     "useMinMax",
-    "useOnReachBottom"
+    "useOnReachBottom",
+    "useWindowSize"
   ],
   "author": "My Friends",
   "license": "ISC",
