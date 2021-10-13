@@ -9,6 +9,7 @@ import useMinMax from './useMinMax'
 import { useEmailRegex } from './useEmailRegex'
 import useOnReachBottom from './useOnReachBottom'
 import { WindowSize, useWindowSize } from './useWindowSize'
+import { usePagination } from './usePagination'
 
 export {
   useLogic,
@@ -24,4 +25,5 @@ export {
   useOnReachBottom,
   WindowSize,
   useWindowSize,
+  usePagination,
 }
