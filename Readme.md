@@ -209,3 +209,17 @@ function App() {
 
 export default App
 ```
+
+## useWindowSize
+
+```javaScript
+
+interface MinMaxPair{
+  minSize:number
+  maxSize:number
+}
+
+ const { width, height } = useWindowSize()
+ const size: MinMaxPair = [width * 0.6 - 300, height * 0.6 - 200]
+
+```

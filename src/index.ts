@@ -8,6 +8,8 @@ import useRandomString from './useRandomString'
 import useMinMax from './useMinMax'
 import { useEmailRegex } from './useEmailRegex'
 import useOnReachBottom from './useOnReachBottom'
+import { WindowSize, useWindowSize } from './useWindowSize'
+
 export {
   useLogic,
   useMediaQuery,
@@ -19,5 +21,7 @@ export {
   useRandomString,
   useMinMax,
   useEmailRegex,
-  useOnReachBottom
+  useOnReachBottom,
+  WindowSize,
+  useWindowSize,
 }
