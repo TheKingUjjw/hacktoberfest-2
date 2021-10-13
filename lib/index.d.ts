@@ -9,5 +9,4 @@ import useMinMax from './useMinMax';
 import { useEmailRegex } from './useEmailRegex';
 import useOnReachBottom from './useOnReachBottom';
 import { WindowSize, useWindowSize } from './useWindowSize';
-import { usePagination } from './usePagination';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, usePagination, };
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, };
