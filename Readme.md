@@ -224,8 +224,7 @@ interface MinMaxPair{
 
 ```
 
-## useWindowSize
-
+## usePagination 
 
 ```typeScript
   import { usePagination } from "./usePagination";
