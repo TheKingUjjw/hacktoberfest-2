@@ -155,6 +155,7 @@ example omitResult = {
 ```
 
 ## useMinMax
+
 ```javaScript
 const { findMin,findMax } = useMinMax();
 const minNumber = findMin([1,2,3]) // 1
@@ -224,7 +225,7 @@ interface MinMaxPair{
 
 ```
 
-## usePagination 
+## usePagination
 
 ```typeScript
   import { usePagination } from "utils-lazy-hook";
@@ -251,6 +252,22 @@ interface MinMaxPair{
           <div>haveBackPage : {haveBackPage ? "true" : "false"}</div>
           <div>haveNextPage : {haveNextPage ? "true" : "false"}</div>
         </div>
+      </div>
+    );
+  }
+```
+
+## useRandomToken
+
+```typeScript
+  import { useRandomToken } from "utils-lazy-hook";
+
+  export default function App() {
+    return (
+      <div className="App">
+        <h1>
+          {useRandomToken(32, true)}
+        </h1>
       </div>
     );
   }
