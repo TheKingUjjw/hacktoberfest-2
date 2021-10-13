@@ -223,3 +223,35 @@ interface MinMaxPair{
  const size: MinMaxPair = [width * 0.6 - 300, height * 0.6 - 200]
 
 ```
+
+## usePagination 
+
+```typeScript
+  import { usePagination } from "utils-lazy-hook";
+  export default function App() {
+    const {
+      page,
+      pages,
+      nextPage,
+      backPage,
+      haveBackPage,
+      haveNextPage
+    } = usePagination({
+      limit: 10,
+      total: 50
+    });
+    return (
+      <div className="App">
+        <h1>
+          {page} / {pages}
+        </h1>
+        <button onClick={backPage}>backPage</button>
+        <button onClick={nextPage}>nextPage</button>
+        <div>
+          <div>haveBackPage : {haveBackPage ? "true" : "false"}</div>
+          <div>haveNextPage : {haveNextPage ? "true" : "false"}</div>
+        </div>
+      </div>
+    );
+  }
+```
