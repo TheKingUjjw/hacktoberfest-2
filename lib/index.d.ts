@@ -11,4 +11,5 @@ import useOnReachBottom from './useOnReachBottom';
 import { WindowSize, useWindowSize } from './useWindowSize';
 import { usePagination } from './usePagination';
 import { useRandomToken } from './useRandomToken';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, usePagination, useRandomToken, };
+import { useCounter } from './useCounter';
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, usePagination, useRandomToken, useCounter };

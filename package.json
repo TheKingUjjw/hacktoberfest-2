@@ -1,6 +1,6 @@
 {
   "name": "utils-lazy-hook",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "utils-lazy-hook",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -28,7 +28,8 @@
     "useOnReachBottom",
     "useWindowSize",
     "usePagination",
-    "useRandomToken"
+    "useRandomToken",
+    "useCounter"
   ],
   "author": "My Friends",
   "license": "ISC",
