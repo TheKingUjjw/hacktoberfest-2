@@ -272,3 +272,25 @@ interface MinMaxPair{
     );
   }
 ```
+
+## useDevice
+
+```typeScript
+  import { useDevice, Device } from "utils-lazy-hook";
+
+  function App() {
+    const device = useDevice();
+
+    return (
+        <div>
+          {device === Device.Desktop ? (
+            <div>This is desktop version</div>
+          ) : (
+            <div>This is mobile version</div>
+          )}
+        </div>
+    )
+  }
+
+  export default App
+```

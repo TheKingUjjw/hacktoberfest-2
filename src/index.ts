@@ -12,6 +12,7 @@ import { WindowSize, useWindowSize } from './useWindowSize'
 import { usePagination } from './usePagination'
 import { useRandomToken } from './useRandomToken'
 import { useCounter } from './useCounter'
+import useDevice, { Device } from './useDevice'
 export {
   useLogic,
   useMediaQuery,
@@ -28,5 +29,7 @@ export {
   useWindowSize,
   usePagination,
   useRandomToken,
-  useCounter
+  useCounter,
+  useDevice,
+  Device
 }
