@@ -13,6 +13,7 @@ import { usePagination } from './usePagination'
 import { useRandomToken } from './useRandomToken'
 import { useCounter } from './useCounter'
 import useDevice, { Device } from './useDevice'
+import useNavigator from './useNavigator'
 export {
   useLogic,
   useMediaQuery,
@@ -31,5 +32,6 @@ export {
   useRandomToken,
   useCounter,
   useDevice,
-  Device
+  Device,
+  useNavigator
 }

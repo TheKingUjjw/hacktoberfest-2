@@ -294,3 +294,21 @@ interface MinMaxPair{
 
   export default App
 ```
+
+## useNavigator
+
+```typeScript
+  import { useNavigator } from "utils-lazy-hook";
+
+  function App() {
+    const navigator = useNavigator();
+
+    return (
+        <div>
+          The platform is {navigator.platform}
+        </div>
+    )
+  }
+
+  export default App
+```
