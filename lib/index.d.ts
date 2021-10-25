@@ -12,4 +12,5 @@ import { WindowSize, useWindowSize } from './useWindowSize';
 import { usePagination } from './usePagination';
 import { useRandomToken } from './useRandomToken';
 import { useCounter } from './useCounter';
-export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, usePagination, useRandomToken, useCounter };
+import { useDarkMode } from 'usehooks-ts'
+export { useLogic, useMediaQuery, breakpoints, useInterval, useFlatMap, useSortRanking, useOmit, useRandomString, useMinMax, useEmailRegex, useOnReachBottom, WindowSize, useWindowSize, usePagination, useRandomToken, useCounter, useDarkMode };
